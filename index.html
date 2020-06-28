@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!-- doctype declaration for html5  -->
+<html lang="en" dir="ltr">
+<!-- tells the browser everything between this opening tag and the closing tag is html-->
+
+  <head>
+    <!-- holds information about the web page and how the browser should handle the page-->
+    <meta charset="utf-8">
+    <!-- the meta element tag gives extra meta data to the html documents on how it should render.
+                                  tellng browser to render in. can also attributes like author, description, etc. Here, with
+                                  utf-8 it is the standard encoding for html5-->
+    <title>Tobie's Personal Site</title>
+  </head>
+
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td><img src="images/croppedphoto.png" alt="tobie profile picture"></td> <!-- alt attribute for when the browser cant render image, also for seo for indexing-->
+        <!-- image url, our browser has to ping linked in to request image. relying on a hosted photo not the best idea.
+        photo at same level as html file so you can refer to it without no additional file path. Would be different if you had a photos folder-->
+        <td><h1>Tobie Stebbins</h1>
+        <p><em>Business Analyst at <strong><a href="https://www.dtcc.com/">The Depository Trust and Clearing Corporation</a></strong>.</em></p>
+        <p>I have a business background, and I am an aspiring web developer. I love coffee and IPA's🍺.</p></td>
+      </tr>
+    </table>
+    <hr size="3" noshade>
+    <h3>Education</h3>
+    <ul>
+      <li>Master's in Business Analytics and Information Systems - <a href="https://www.usf.edu/">University of South Florida </a></li>
+      <li>Bachelor's in Business Management - <a href="https://www.ufl.edu/">University of Florida</a></li>
+    </ul>
+    <hr size="3" noshade>
+    <h3>Work Experience</h3>
+    <table cellspacing="10"> <!-- tables typically for structured data but can also affect the layout of your website-->
+      <thead> <!--table header-->
+        <tr> <!--table row-->
+          <th>Position</th>
+          <th>Dates</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Business Analyst at The Depository Trust and Clearing Company</td>
+          <td>January 2020 to Present</td> <!--table data aka individual cells for the row-->
+        </tr>
+        <tr>
+          <td>Training and Implementation Specialist II at M3 Accounting + Analytics</td>
+          <td>January 2018 to January 2020</td>
+        </tr>
+        <tr>
+          <td>Litigation Claims Representative</td>
+          <td>August 2012 to November 2016</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr size="3" noshade>
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>Project Management</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Database Management/SQL</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Web Development</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Business Intelligence</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+    </table>
+
+    <hr size="3" noshade>
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contact.html">Contact Me</a>
+  </body>
+
+</html>

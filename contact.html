@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>(352) 484-5599</p>
+    <p>tstebbins88@gmail.com</p>
+    <p><a href="https://www.linkedin.com/in/tobie-stebbins-b079314a/">linkedin</a></p>
+    <hr size="3" noshade>
+    <form action="mailto:tstebbins88@gmail.com" method="post" enctype="text/plain"> <!--specifies the data in our form is plain text
+      <!--the form action is the functionality when the form is submitted.the mailto action opens your default mail client when you press the submit button
+    and puts in email address you specify after the colon. The post means that the inputs filled in will be transferred to the email client-->
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
